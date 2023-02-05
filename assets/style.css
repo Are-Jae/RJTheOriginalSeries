@@ -1,5 +1,14 @@
+
+:root{
+
+--lightText: 	#f2c300;
+background: url(USS1.jpg) no-repeat fixed scroll center;
+
+}
+
 body{
     background: url(USS1.jpg) no-repeat fixed scroll center;
+
 
 
 }
@@ -16,6 +25,32 @@ a {
 
 
 }
+
+
+.Name{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    color: var(--lightText);
+
+
+
+}
+
+
+.Skills{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    color: var(--lightText);
+
+
+}
+
+
+
+
 
 
 
