@@ -1,24 +1,58 @@
 body{
-    background: url(USS1.jpg) no-repeat fixed center;
-
-
-}
-
-nav{
-    display:flex;
-    justify-content: center;
-
-}
-
-
-
-
-
-a {
+    background: url(USS1.jpg) no-repeat fixed scroll center;
 
 
 
 }
 
+/*:root{
 
-
+    --lightText: 	#f2c300;
+    
+    }*/
+    
+   
+    
+    nav{
+        display:inline;
+        justify-content: center;
+    
+    }
+    
+    
+    a {
+        color: var(--lightText);
+    
+    
+    
+    }
+    
+    
+    .Name{
+        display: flex;
+        align-items: flex-end;
+        justify-content: left;
+        color: var(--lightText);
+    
+    
+    
+    }
+    
+    
+    .Skills{
+    
+        display: flex;
+        align-items: flex-start;
+        justify-content: right;
+        color: var(--lightText);
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
