@@ -1,20 +1,16 @@
-body{
-    background: url(USS1.jpg) no-repeat fixed scroll center;
-
-
-
-}
-
-/*:root{
+:root{
 
     --lightText: 	#f2c300;
+    background: url(USS1.jpg) no-repeat fixed center;
+    display: grid;
     
-    }*/
+}
+    
     
    
     
     nav{
-        display:inline;
+        display:flex;
         justify-content: center;
     
     }
@@ -22,17 +18,46 @@ body{
     
     a {
         color: var(--lightText);
+        display: flex;
+        font-display: ;
+        /*flex-direction: column;*/
+       
+
     
     
     
     }
+
+    .img{
+        flex-flow: wrap column;
+        align-items: flex-start;
+        box-sizing: border-box;
+        border-style: hidden 2px;
+        justify-content: center space-evenly;
+        margin-top: auto;
+        margin-bottom: auto;
+          
+
+
+
+    }
+
+
     
     
     .Name{
         display: flex;
-        align-items: flex-end;
-        justify-content: left;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
         color: var(--lightText);
+        font-display: block;
+        /*box-sizing: border-box;
+        border-style: groove 2px;
+        border-color:  	#df0000;*/
+        font-size: larger;
+        font-display: ;
+       
     
     
     
@@ -45,10 +70,30 @@ body{
         align-items: flex-start;
         justify-content: right;
         color: var(--lightText);
+        font-size: large;
     
     
     }
+
+
+    /*ul{
+       margin-bottom: 22px;
+
+
+
+    }*/
     
+
+    footer{
+
+
+display: flex;
+flex-flow: wrap row;
+color: white;
+position: absolute;
+z-index: 5000;
+
+    } /*footers not displaying in html, have been trying to find issue*/
     
     
     

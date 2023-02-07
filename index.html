@@ -1,80 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-        
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>RJ's Trekfolio</title>
-        <!--title was changed AFTER changes pushed to repo, repo index does not have this title-->
-        <link rel="stylesheet" type="text/css" href="assets/style.css" />
-        <link rel="stylesheet" type="text/css" href="assets/reset.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--check to see if this is mobile compatible-->
+    <title>RJ's Trekfolio</title>
+    <!--title was changed AFTER changes pushed to repo, repo index does not have this title-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/reset.css" />
 
-    <!--ADD ALT TEXT TO ALL IMG TAGS-->
-    </head>
-    
-    <body>
+    <!--ADD ALT TEXT TO ALL IMG TAGS(done)-->
+    <!--ALL IMAGES NEED TO BE RESIZED(going to add box properties first then crop if it doesnt work.)-->
+  </head>
+
+  <body>
     <nav>
-       <button> <img src="assets/starthere.JPG">
-        <!--needs "start here img inserted, recreate"--> <!--add button functionality-->
-    </button>
+      <button id="startBtn">
+        <img src="assets/starthere.JPG" />
+        <!--needs "start here" img inserted(done)-->
+        <!--add button functionality(done)-->
+      </button>
     </nav>
 
-    <!--add background img to html with css-->
+    <!--add background img to html with css(done)-->
+
+    <img src="assets/firmoo pink1.png" />
 
     <aside class="Name">
-        <h1>RJ Evans</h1>
+      <h1>&nbsp;RJ Evans&nbsp;</h1>
     </aside>
+    <!--needs box properties(not applying properly, why?)-->
 
     <aside class="Skills">
-        <h2>Skillset:</h2>
+      <!--needs box properties(not applying properly, why?)-->
+      <h2>Skillset:</h2>
+      <br/><br />
 
-        <ol>
-
-            <li>🖖🏾Javascript</li>
-            <br><br>
-            <li>🖖🏾HTML</li>
-            <br><br>
-            <li>🖖🏾CSS</li>
-            <br><br>
-        </ol>
+      <ul>
+        <li>🖖🏾Javascript</li>
+        <br /><br />
+        <li>🖖🏾HTML</li>
+        <br /><br />
+        <li>🖖🏾CSS</li>
+        <br /><br />
+      </ul>
     </aside>
 
+    <div id="linkBox">
+      <!--removing text from <p> tags to style font directly on image or otherwise have it listed elsewhere, not under img-->
+      <!--not sure if js is working, not important for now-->
 
-    <a href="https://are-jae.github.io/preworkstudyguide/" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://are-jae.github.io/preworkstudyguide/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <!--<p>Study Guide</p>-->
+        <img
+          src="assets/fullbridgecrew.jpg"
+          alt="The bridgecrew of the USS Enterprise 1701-A gather around a console"
+        />
+      </a>
+      <br /><br />
 
-        <p>Study Guide</p>
-        <img src="assets/fullbridgecrew.jpg">
+      <a
+        href="https://are-jae.github.io/Windows97Portfolio/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <!--<p>Windows97 Portfolio</p>-->
+        <!--reformat to match reset css in alt doc-->
 
-    </a>
+        <img
+          src="assets/spockcat.jpg"
+          alt="Spock, wearing blue shirt holding a black cat"
+        />
+      </a>
+      <br /><br />
+      <a
+        href="https://github.com/Are-Jae/Quiz-API-Challenge-"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <!--add deployed link to API challenge when loaded-->
+        <!--added repo link instead-->
 
-    <a href="https://are-jae.github.io/Windows97Portfolio/" target="_blank" rel="noopener noreferrer">
+        <img
+          src="assets/kirkhura.jpg"
+          alt="Lt. Uhura talks with Captain Kirk"
+        />
 
-        <p>Windows97 Portfolio</p> <!--reformat to match reset css in alt doc-->
+        <!--<p>API Quiz</p>-->
+      </a>
 
-        <img src="assets/spockcat.jpg">
-    </a>
+      <br /><br />
+      <a
+        href="https://are-jae.github.io/Javascript-Generator-Challenge/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <!--<p>Javascript Generator</p>-->
 
-    <a href=""  target="_blank" rel="noopener noreferrer"> <!--add deployed link to API challenge when loaded-->
+        <img src="assets/TheA.jpg" alt="The Uss Enterprise 1701-A in flight" />
+      </a>
+      <br /><br />
+    </div>
+</body>
+    <footer>
+      
+          <a
+            href="https://www.linkedin.com/in/arejay7/"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        
+          <a
+            href="https://github.com/Are-Jae"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+        
+
+       <a href="mailto: evansraven7@gmail.com"></a>
+      
+    </footer>
+    <!--needs to be wrapped in a div to display? unable to get links to display in footer, will move them to nav-->
 
 
-    <img src="assets/kirkhura.jpg">
-
-    <p>API Quiz</p>
-</a>
-
-
-
-
-<footer>
-
-    <a href="https://www.linkedin.com/in/arejay7/" target="_blank" rel="noopener noreferrer"></a>
-
-    <a href="https://github.com/Are-Jae" target="_blank" rel="noopener noreferrer"></a>
-
-    <a href = "mailto: evansraven7@gmail.com"></a>
-</footer> <!--needs to be wrapped in a div to display?-->
-    </body>
- 
-
-    </html>
+  <script src="script.js"></script>
+</html>
