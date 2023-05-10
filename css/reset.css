@@ -1,7 +1,7 @@
 :root{
 
     --lightText: 	#f2c300;
-    background: url(USS1.jpg) no-repeat fixed center;
+    background: url(USS1.jpg) no-repeat fixed center fill;
     display: grid;
     
 }
