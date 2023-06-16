@@ -1,10 +1,3 @@
-:root{
-
-    --lightText: 	#f2c300;
-    background: url(USS1.jpg) no-repeat fixed center;
-    display: grid;
-    
-}
     
     
    
@@ -19,7 +12,7 @@
     a {
         color: var(--lightText);
         display: flex;
-        font-display: ;
+        /*font-display: ;
         /*flex-direction: column;*/
        
 
@@ -36,6 +29,7 @@
         justify-content: center space-evenly;
         margin-top: auto;
         margin-bottom: auto;
+        display: inline-grid;
           
 
 
@@ -56,7 +50,7 @@
         border-style: groove 2px;
         border-color:  	#df0000;*/
         font-size: larger;
-        font-display: ;
+        /* font-display: ; */
        
     
     
@@ -87,11 +81,11 @@
     footer{
 
 
-display: flex;
+display: grid;
 flex-flow: wrap row;
 color: white;
 position: absolute;
-z-index: 5000;
+/*z-index: 5000;*/
 
     } /*footers not displaying in html, have been trying to find issue*/
     

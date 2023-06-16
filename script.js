@@ -7,9 +7,21 @@ one by one, currently I am not able to get this code to work for me, I am leavin
 
 
 // add event listener to  bio button so that when we click it, something will hapenn
-startBtn.addEventListener("click", function () {
-    linkBox.style.opacity = "1"
-    linkBox.style.transitionDelay = '.5s'
-    linkBox.style.opacity = "1"
-    linkBox.style.transitionDelay = ".75s"
-})
+let myButton = () =>  {
+
+
+     startBtn.on
+    // linkBox.style.opacity = "1"
+    // linkBox.style.transitionDelay = '.5s'
+    // linkBox.style.opacity = "1"
+    // linkBox.style.transitionDelay = ".75s"
+}
+
+
+
+
+pseudo code: 
+
+add Eventlistener to button 
+
+if startBtn clicked then load imgs w/hyperlinks on a .5 second delay two imgs per row 

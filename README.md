@@ -37,24 +37,24 @@ I expect for a user to be able to visit my webpage and click the "Start Here" bu
 
 I was unable to fully work out the javascript logic to apply full functionality to my button. The images for my project's deployed apps do function as they are supposed to and open into new tabs. My avatar sizing is not ideal for user viewing as it is too small. My asides are present but I am unable to add the correct CSS in order to style them as they are in my wireframe. As this is an ogoing project I do not mind turning it in as it is. I will resubmit when I can fully debug this application. I will place a screenshot of my code (HTML, CSS and Javascript) and the deployed application below. 
 
-
+I would like the links to be wrapped in gifs that float over the page, I want the start button to cause the gifs to roll out in a grid 
 
 ## README
 
-![Lines 1-40 of README](assets/readme1.JPG)]
-![Lines 41-89 of README](assets/readme2.JPG)]
+![Lines 1-40 of README][(assets/readme1.JPG)]
+![Lines 41-89 of README][(assets/readme2.JPG)]
 
 ## Code
 
-![Javascript](assets/javascriptscreensnip.JPG)]
-![HTML](assets/htmlscreenrecord.mp4)]
-![CSS](assets/stylesheetscreenrecord.mp4)]
-![Reset](assets/resetscreenrecord.mp4)]
+![Javascript][(assets/javascriptscreensnip.JPG)]
+![HTML][(assets/htmlscreenrecord.mp4)]
+![CSS][(assets/stylesheetscreenrecord.mp4)]
+![Reset][(assets/resetscreenrecord.mp4)]
 
 
 ## Deployed Application
 file:///C:/Users/raven/Desktop/RJTheOriginalSeries/index.html 
-![Screen capture of deployed app](assets/deployed%20app%20record.mp4)]
+![Screen capture of deployed app][(assets/deployed%20app%20record.mp4)]
 
 
 
@@ -67,7 +67,7 @@ https://github.com/Are-Jae/RJTheOriginalSeries
 
 
 ## Wireframe 
-![Wireframe](assets/RJTheOriginalSeries.png)] 
+![Wireframe][(assets/RJTheOriginalSeries.png)] 
 
 ## emojis used: 🖖🏾
 
