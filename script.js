@@ -1,27 +1,47 @@
-const startBtn = document.getElementById("linkBox");
-/*let trekDiv= document.querySelector()
-
-/* my plans for this JS button are: when "Start Here" img is clicked then the four images containing the links to my projects will load
-one by one, currently I am not able to get this code to work for me, I am leaving it in my repo for future reference*/
+const startBtn1 = document.getElementById("linkBox");
 
 
 
-// add event listener to  bio button so that when we click it, something will hapenn
+
+
+
+
+// add event listener to bio button so that when we click it, projects will load 
 let myButton = () =>  {
 
 
-     startBtn.on
-    // linkBox.style.opacity = "1"
-    // linkBox.style.transitionDelay = '.5s'
-    // linkBox.style.opacity = "1"
-    // linkBox.style.transitionDelay = ".75s"
+
+
+     startBtn1.on
+   
 }
 
 
 
 
-pseudo code: 
 
-add Eventlistener to button 
 
-if startBtn clicked then load imgs w/hyperlinks on a .5 second delay two imgs per row 
+
+
+// pseudo code:
+
+
+// add Eventlistener to button
+
+
+// if startBtn clicked then load imgs w/hyperlinks on a .5 second delay two imgs per row
+
+
+
+
+const gridCont = document.getElementById("grid-container")
+
+
+gridCont.style.display = "none"
+const startBtn = document.getElementById("startBtn")
+
+
+startBtn.addEventListener("click",function(){
+    gridCont.style.display = "flex"
+    startBtn.style.display = "none"
+})

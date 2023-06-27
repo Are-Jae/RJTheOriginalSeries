@@ -1,14 +1,20 @@
 # RJTheOriginalSeries
-A portfolio showcasing my current skillset, projects and love of Star Trek: The Original Series. I did not add a bio section due to there being a link within my webpage that leads to a separate portfolio I'm working on outside of this project. 
+A portfolio showcasing my current skillset, projects and love of Star Trek: The Original Series. I did not add a bio section due to there being a link within my webpage that leads to a separate portfolio I'm working on outside of this project.
 
 
 
 
 
-## User Story 
+
+
+
+
+
+## User Story
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 
 ## Acceptaince Criteria
 GIVEN I need to sample a potential employee's previous work
@@ -26,35 +32,52 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
+
+
 ## Installation
 n/a
 
-## Expected Behavior 
 
-I expect for a user to be able to visit my webpage and click the "Start Here" button that will then load the images with links to my projects embedded within them. When the image is clicked a new tab is opened displaying that website, any link that does not lead to a deployed application will open to the repository for that project. There will be two asides that contain my avatar, my name and my current skillset. 
+## Expected Behavior
+
+
+I expect for a user to be able to visit my webpage and click the "Start Here" button that will then load the images with links to my projects embedded within them. When the image is clicked a new tab is opened displaying that website, any link that does not lead to a deployed application will open to the repository for that project. There will be two asides that contain my avatar, my name and my current skillset.
+
 
 ## Actual Behavior
 
-I was unable to fully work out the javascript logic to apply full functionality to my button. The images for my project's deployed apps do function as they are supposed to and open into new tabs. My avatar sizing is not ideal for user viewing as it is too small. My asides are present but I am unable to add the correct CSS in order to style them as they are in my wireframe. As this is an ogoing project I do not mind turning it in as it is. I will resubmit when I can fully debug this application. I will place a screenshot of my code (HTML, CSS and Javascript) and the deployed application below. 
 
-I would like the links to be wrapped in gifs that float over the page, I want the start button to cause the gifs to roll out in a grid 
+I was unable to fully work out the javascript logic to apply full functionality to my button. The images for my project's deployed apps do function as they are supposed to and open into new tabs. My avatar sizing is not ideal for user viewing as it is too small. My asides are present but I am unable to add the correct CSS in order to style them as they are in my wireframe. As this is an ogoing project I do not mind turning it in as it is. I will resubmit when I can fully debug this application. I will place a screenshot of my code (HTML, CSS and Javascript) and the deployed application below.
 
-## README
 
-![Lines 1-40 of README][(assets/readme1.JPG)]
-![Lines 41-89 of README][(assets/readme2.JPG)]
+I would like the links to be wrapped in gifs that float over the page, I want the start button to cause the gifs to roll out in a grid
 
-## Code
 
-![Javascript][(assets/javascriptscreensnip.JPG)]
-![HTML][(assets/htmlscreenrecord.mp4)]
-![CSS][(assets/stylesheetscreenrecord.mp4)]
-![Reset][(assets/resetscreenrecord.mp4)]
+
+
+
+
+
+
+
+
+
+
 
 
 ## Deployed Application
-file:///C:/Users/raven/Desktop/RJTheOriginalSeries/index.html 
-![Screen capture of deployed app][(assets/deployed%20app%20record.mp4)]
+https://are-jae.github.io/RJTheOriginalSeries/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,26 +86,42 @@ file:///C:/Users/raven/Desktop/RJTheOriginalSeries/index.html
 
 
 ## Repository
+
+
 https://github.com/Are-Jae/RJTheOriginalSeries
 
 
-## Wireframe 
-![Wireframe][(assets/RJTheOriginalSeries.png)] 
 
-## emojis used: 🖖🏾
+
+## Wireframe
+![Wireframe][(assets/RJTheOriginalSeries.png)]
+
+
+## emojis used
+
+
+- 🖖🏾
+
 
 ## License
 
-Star Trek is owned by Paramount 
+
+MIT
+Star Trek is owned by Paramount
+
+
 
 
 ## Credit
 
-Emoji: https://emojipedia.org/vulcan-salute-medium-dark-skin-tone/ 
 
-Star Trek color palette: https://www.color-hex.com/color-palette/6450
+- Emoji: https://emojipedia.org/vulcan-salute-medium-dark-skin-tone/
 
-Star Trek "Roddenberry" font: https://www.fontspace.com/roddenberry-font-f17937
 
-W3schools.com 
+- Star Trek color palette: https://www.color-hex.com/color-palette/6450
 
+
+- Star Trek "Roddenberry" font: https://www.fontspace.com/roddenberry-font-f17937
+
+
+- W3schools.com
