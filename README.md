@@ -109,8 +109,8 @@ https://github.com/Are-Jae/RJTheOriginalSeries
 ## License
 
 
-MIT
-Star Trek is owned by Paramount
+- MIT
+- Star Trek is owned by Paramount
 
 
 
