@@ -61,10 +61,6 @@ I would like the links to be wrapped in gifs that float over the page, I want th
 
 
 
-
-
-
-
 ## Deployed Application
 https://are-jae.github.io/RJTheOriginalSeries/
 
@@ -73,7 +69,14 @@ https://are-jae.github.io/RJTheOriginalSeries/
 
 
 
+## Sample 
 
+
+
+
+
+
+## Tutorial 
 
 
 
@@ -125,6 +128,15 @@ Star Trek is owned by Paramount
 
 
 - W3schools.com
+
+## License 
+
+- MIT 
+
+## Project Goals 
+- Add all functional projects 
+- Deploy to Heroku 
+
 
 
 
